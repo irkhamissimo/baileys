@@ -1,0 +1,8 @@
+{
+  "ignore": [
+    "bailey_store_multi.json",
+    "session/", 
+    "data/",
+    "media/"
+  ]
+}

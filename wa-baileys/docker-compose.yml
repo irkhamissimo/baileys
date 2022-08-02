@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web:
+    image: node:16.16.0
+    container_name: baileys-web
+    working_dir: /usr/app
+    command: npm run dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/usr/app
+    environment:
+      ENV: local
+      NODE_ENV: development
+      
